@@ -1,0 +1,155 @@
+body{
+    background-color:#24253c;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    min-height: 100vh;
+}
+
+h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: aliceblue;
+}  
+header{
+    background-color: #025159;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    text-align: center;
+    color:#edf0f0;
+    padding: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+
+
+.conteiner{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+.conteiner-form{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.cont-encabezado{
+    display: flex;
+    justify-content:flex-start;
+   
+}
+.cont-nav{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+ul {
+    list-style-type: none;
+}
+.conteiner-logo{
+    background-color: #C4EEF2;
+    width: 100%;
+    height: auto;
+}
+.conteiner-logo img{
+    display: block;
+    margin-left: auto; 
+    margin-right: auto;
+}
+.conteiner-logo img:hover{
+    transform: scale(1.05);
+}
+
+.mouse{
+    transition: all 300ms;
+    position: relative;
+}
+
+.cont-footer { 
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    background-color: black;
+}
+form {
+    background-color: #24253c;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    width: 420px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    margin-bottom: 35px;
+    
+}
+form h2 {
+    font-size: 30 px;
+    color: #edf0f0;
+    margin-bottom: 35px;
+
+}
+input {
+    padding: 17px;
+    border-radius: 25px;
+}
+textarea{
+    margin-top: 15px;
+    padding: 40px;
+
+}
+.img_calendario {
+    display: flex;
+    width: 700px;
+    height: 100%;
+    margin: 10px;
+    padding: 10px;
+
+}
+.titulos {
+    font-family: 'Courier New', Courier, monospace;
+    color: #C4EEF2;
+}
+.acomodar {
+    display: flex;
+    align-items: center;
+     
+    
+}
+.margen {
+    margin: 10px;
+}
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: aliceblue;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+   
+}
+.flex{
+    display: flex;
+    margin: 10px;
+    gap: 10px;
+}
